@@ -1,10 +1,20 @@
 <MainView id='View1'>
-    <View name='SubView1' parent='View1'>
-        <Widget type='triangle' name='First' x='20' y='40' />
-        <Widget type='rectangle' name='Second' x='180' y='60' />
-        <Widget type='button' name='Third' x='10' y='150' />
-        <Widget type='input' name='Fourth' x='150' y='150' />
-        <Widget type='triangle' name='first' x='20' y='40' />
-        <Widget type='triangle' name='first' x='20' y='40' />
-    </View>
+  <View name='SubView1' parent='View1'>
+    <Widget type='triangle' name='First' x='20' y='40' />
+    <Widget type='rectangle' name='Second' x='180' y='60' />
+    <Widget type='button' name='Third' x='10' y='150' />
+    <Widget type='input' name='Fourth' x='150' y='150' />
+  </View>
+  <View name='SubView2' parent='View1'>
+    <Widget type='triangle' name='First' x='20' y='40' />
+    <Widget type='rectangle' name='Second' x='180' y='60' />
+    <Widget type='button' name='Third' x='10' y='150' />
+    <Widget type='input' name='Fourth' x='150' y='150' />
+  </View>
+  <View name='SubView3' parent='View1'>
+    <Widget type='triangle' name='First' x='20' y='40' />
+    <Widget type='rectangle' name='Second' x='180' y='60' />
+    <Widget type='button' name='Third' x='10' y='150' />
+    <Widget type='input' name='Fourth' x='150' y='150' />
+  </View>
 </MainView>
