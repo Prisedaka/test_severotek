@@ -1,20 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
 <MainView id='View1'>
-  <View name='SubView1' parent='View1'>
-    <Widget type='triangle' name='First' x='20' y='40' />
-    <Widget type='rectangle' name='Second' x='180' y='60' />
-    <Widget type='button' name='Third' x='10' y='150' />
-    <Widget type='input' name='Fourth' x='150' y='150' />
+  <View id='SubView1' parent='View1'>
+    <Widget type='ellipse' name='First' cx='175' cy='175' rx='80' ry='25' />
+    <Widget type='rectangle' name='Second' x='30' y='10' width='100' height='80' />
+    <Widget type='triangle' name='Third' points='400 380 430 300 80 330 400 380' />
+    <Widget type='brokenLine' name='Fourth' points='200 180 230 100 280 30 280 80 200 90' />
+    <Widget type='straightLine' name='Fifth' points='200 280 300 440' />
+    <Widget type='text' name='Fifth' value='Some Text' x1='0' y1='20' x2='590' y2='20' />
   </View>
-  <View name='SubView2' parent='View1'>
-    <Widget type='triangle' name='First' x='20' y='40' />
-    <Widget type='rectangle' name='Second' x='180' y='60' />
-    <Widget type='button' name='Third' x='10' y='150' />
-    <Widget type='input' name='Fourth' x='150' y='150' />
+  <View id='SubView2' parent='View1'>
+    <Widget type='ellipse' name='First' cx='60' cy='20' rx='50' ry='15' />
+    <Widget type='rectangle' name='Second' x='30' y='210' width='100' height='80' />
+    <Widget type='triangle' name='Third' points='320 280 350 200 200 230 320 280' />
+    <Widget type='brokenLine' name='Fourth' points='300 280 330 200 380 130 380 180 300 190' />
+    <Widget type='straightLine' name='Fifth' points='300 380 400 540' />
+    <Widget type='text' name='Fifth' value='Some Text' x1='0' y1='120' x2='190' y2='520' />
   </View>
-  <View name='SubView3' parent='View1'>
-    <Widget type='triangle' name='First' x='20' y='40' />
-    <Widget type='rectangle' name='Second' x='180' y='60' />
-    <Widget type='button' name='Third' x='10' y='150' />
-    <Widget type='input' name='Fourth' x='150' y='150' />
+  <View id='SubView3' parent='View1'>
+    <Widget type='ellipse' name='First' cx='500' cy='500' rx='60' ry='45' />
+    <Widget type='rectangle' name='Second' x='230' y='10' width='150' height='60' />
+    <Widget type='triangle' name='Third' points='350 380 430 300 430 300 80 330 350 380' />
+    <Widget type='brokenLine' name='Fourth' points='200 180 230 100 280 30 280 80 200 90' />
+    <Widget type='straightLine' name='Fifth' points='400 380 400 440' />
+    <Widget type='text' name='Fifth' value='Some Text' x1='0' y1='20' x2='20' y2='550' />
   </View>
 </MainView>
